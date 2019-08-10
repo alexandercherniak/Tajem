@@ -1,0 +1,47 @@
+.grid {
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+}
+
+.grid-expertise {
+  margin: -11px;
+}
+
+.grid-expertise .grid-item {
+  padding: 10px;
+  flex-basis: 33.33%;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey; 
+}
+
+.grid-gap-lg {
+  display: flex;
+}
+
+.grid-gap-lg, .grid-clients {
+  margin: 0 -40px;
+}
+
+.grid-gap-lg > *, .grid-clients > * {
+  padding: 0 40px;
+}
+
+.grid-works .grid-item {
+  background-color: grey;
+  flex-basis: 16.66%;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff; 
+}
+
+.grid-logos .grid-item {
+  height: 100%;
+  padding: 10px;
+}
+
+.grid .grid-team {
+  display: flex;
+  height: 100%;
+}
